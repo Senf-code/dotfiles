@@ -19,3 +19,13 @@ cd paru && makepkg -si
 
 ## Tmux
 Конфиг располагается в директории *~/.config/tmux/* в виде tmux.conf, а также требует установку плагинов с помощью команды mkdir -p ~/.config/tmux/plugins && git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm/
+
+## Micro
+В терминале
+```
+micro --plugin install nordcolors
+```
+В текстовом редакторе micro ``ctrl + e``
+```
+set colorscheme nord-tc
+```
