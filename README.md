@@ -24,8 +24,10 @@ cd paru && makepkg -si
 В терминале
 ```
 micro --plugin install nordcolors
+micro --plugin install filemanager
 ```
 В текстовом редакторе micro ``ctrl + e``
 ```
 set colorscheme nord-tc
+tree
 ```
